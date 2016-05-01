@@ -3,7 +3,6 @@ from pwn import *
 import struct
 from hexdump import hexdump
 
-
 def q(x):
   return struct.pack("I", x)
 
